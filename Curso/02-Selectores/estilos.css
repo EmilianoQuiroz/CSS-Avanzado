@@ -1,0 +1,65 @@
+/*
+Selectores en Css
+*/
+/*---------------------------------------------------------------*/
+/*
+**************************
+*   Selectore Universal  * 
+**************************
+Este selector modifica a todos los elementos del 
+html, se representa con un *.
+Ejemplo:
+
+*{
+    backgroud-colo: blue;
+}
+*/
+/*---------------------------------------------------------------*/
+/*
+**************************
+*   Selectores de tipo   * 
+**************************
+Selecciona directamente con el nombre de la
+etiqueta. Ejemplo:
+h2{
+    color: red;
+}
+En este ejemplo se le asigna un color rojo a todos 
+los elementos h2.
+*/
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*---------------------------------------------------------------*/
+/*
+**************************
+*   Selectores de clase  * 
+**************************
+Selecciona en base al nombre asignado a la clase del
+ o los elementos que se quieran modificar. Cada elemento
+ puede tener una o varias clases.
+ Ejemplo.
+*/
+.peliculas{
+    color: red;
+}
+/*---------------------------------------------------------------*/
+/*
+**************************
+*   Selectores de id     * 
+**************************
+Se selecciona mediante el nombre de id que se le haya
+asignado al elemento que se quiera modificar. Para
+seleccionar esta id debemos poner un # antes del nombre
+de la misma. Ejemplo.
+*/
+#sipermanNoWayHome{
+    font-size: bold;
+    color: aqua;
+}
+#temporada3{
+    color: aquamarine;
+    font-size: 24px;
+}
+/*---------------------------------------------------------------*/

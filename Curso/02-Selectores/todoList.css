@@ -1,0 +1,62 @@
+/*
+**************************
+*       Selectores       * 
+**************************
+*/
+/*--- Combinador de desendientes ---*/
+/*Selecciona a todos los desendientes de un elemento*/
+
+.listas .lista {
+    text-decoration: underline;
+}
+
+.todo .lista {
+    list-style: decimal;
+}
+
+.dias .lista {
+    list-style: none;
+}
+
+/*--- Combinador de hijos directos ---*/
+.listas > .lista {
+    list-style: upper-roman;
+    background-color: yellow;
+}
+
+.dias > .lista {
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*--- Combinador de hermano adyacente ---*/
+/*
+Selecciona al siguiente elemento luego del elemento
+seleccionado
+*/
+/*
+.subtitulo + .parrafo {
+    background-color: red;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+.parrafo {
+    background-color: blue;
+}
+.subtitulo:hover + .parrafo {
+    opacity: 1;
+    height: 50px;
+}
+*/
+
+/*--- Combinador de hermanos generales ---*/
+/*
+Combina dos selectores donde el segundo selector
+debe ser un hermano siguiente al primer selector
+*/
+
+.subtitulo ~ .parrafo {
+    background-color: aqua;
+}

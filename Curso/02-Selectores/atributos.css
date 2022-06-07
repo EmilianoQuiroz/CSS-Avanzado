@@ -1,0 +1,18 @@
+/*
+********************************
+*   Selectores de atributos    * 
+********************************
+*/
+[class]{
+    background-color: aquamarine;
+}
+/* En este ejemplo selecciono a todos los 
+elementos que tengan el atributo class */
+[value]{
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+}
+[value = "santiago.quiroz98hotmil.com"]{
+    background-color: rgb(14, 136, 95);
+}
