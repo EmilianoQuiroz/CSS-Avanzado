@@ -1,0 +1,68 @@
+/*
+********************************
+*           Cascada            * 
+********************************
+*/
+/*
+Es una carcteristica de css. Es una manera de determinar 
+que selectores van a aplicar los estilos en caso de que 
+haya mas de un selector que cambie el mismo elemento y 
+le de un estilo diferente.Ejemplo:
+*/
+h2{
+    color:red;
+}
+h2{
+    color:blue;
+}
+h2{
+    color:green;
+}
+/*
+Regla Cascada: se aplicara el ultimo estilo que se
+le haya dado a un elemento en caso de que este haya
+recibido mas de uno. En el anterior ejemplo vemos 
+como al atributo h2 se le asignan 3 colores diferente,
+sin embargo este sera del ultimo color que se haya
+asignado, en este caso el verde.
+*/
+
+/*
+********************************
+*         Especificidad        * 
+********************************
+*/
+/*
+El selector con mas especificidad sera el selector al
+cual se le aplicaran los estilos. Ejemplo:
+*/
+.titulo {
+    color: blue;
+    font-family: arial,sans-serif;
+}
+
+h2 {
+    color: coral;
+}
+/*Esta especificidad se da cuando dos selectores compiten por
+dar el mismo estilo a un elemento, en cambio si estos quieren 
+dar estilos diferentes al mismo estilo, estos pueden coexistir 
+de manera complementaria.*/
+/*
+Se puede romper con la especificidad agregando la leyenda 
+!important luego del estilo, si por ejemplo la ponemos luefo de 
+color en h1 esta cobrara mas importancia que el color en el 
+selector de clase, de esta manera pasaria a tener el color del  h1.
+Esta no es una practica recomendable ya que nos puede traer problemas
+a futuro en codigos mucho mas robustos
+*/
+
+/*
+********************************
+*          Herencia            * 
+********************************
+*/
+/*
+Es la caracteristica de heredar estilos a los hijos de 
+un contenedor.
+*/
