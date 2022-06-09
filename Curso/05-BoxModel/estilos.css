@@ -17,5 +17,65 @@ body{
 .card{
     background-color: royalblue;
     color: white;
+    display: inline-block;
     width: 300px; 
+    /*max-width: 300px;
+    min-width: 100px;
+    height: 300px;
+    max-height: 300px;
+    overflow: auto;*/
+
+    /*------------ Padding ------------*/
+    /*padding: 20px;Espacio entre el borde y el contenido del elemento-*/
+    /*
+    Orden de las direcciones del padding:
+    arriba, derecha, abajo, izquierda.
+    */
+    /*
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    */
+    /*Podemos tener el mismo resultado de la siguiente manera:*/  
+    padding: 20px;
+    /*
+    Sigue el siguiente orden:
+    arriba, derecha, abajo, izquierda
+    */
+    /*
+    Si ponemos tres valores se aplican de la siguiente manera:
+    padding: Arriba (izquierda-derecha) Abajo
+
+    En cambio si ponemos dos valores los aplicara de la siguiente manera:border:
+    padding: (Arriba-Abajo) (Izquierda-Derecha)
+    */
+
+    /*--------Borde--------*/
+    /*
+    Los bordes pueden tener tres caracteristicas:
+    - Tipo de borde.
+    - Color del borde.
+    - Ancho del borde.
+    */
+
+    /*border-width: 20px; Ancho*/
+    /*border-style: solid;Tipo*/
+    border-color: purple;/*Color*/
+    /*Al igual que el padding, el border puede bariar 
+    su tamaño en cada ladodel mismo.
+    */
+    /*
+    border-top-width: 20px;
+    border-right-width: 40px;
+    border-bottom-width: 60px;
+    border-left-width: 80px;
+    */
+    /*Esto se puede acortar utilizando la misma
+    logica del padding
+    border-width: 10px 20px 30px 80px;*/
+    /*----------- Estilos de Bordes -----------*/
+    border-width: 20px;
+
+    border-style: solid;
 }
