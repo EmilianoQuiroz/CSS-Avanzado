@@ -1,0 +1,21 @@
+/*
+*************************
+*       Box Model       *
+*************************
+*/
+/*
+Todos los elementos en el HTML son tratados como
+cajas, a las cuales les podremos modificar sus 
+atributos para mejorar su diseño. El box model en
+CSS es la estructura que componen las cajas, esta
+estructura se divide en capas.
+*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+    background-color: royalblue;
+    color: white;
+    width: 300px; 
+}

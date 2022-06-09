@@ -1,4 +1,70 @@
 /*¿Que es y para que sirve BEM?*/
 /*
-BEM (Block Element Modifer) es
+BEM (Block Element Modifer) es una metodologia que nos
+proporciona una manera de nombrar nuestras clases en html
+para posteriormente poder usarlo en CSS, Bem nos ayudara 
+a mantener nuestro codigo flexible, modular y sencillo.
+Sobre todo a lidiar con problemas sobre especificidad.
+
+BEM significa Block Element Modifer, esto es debido a
+todas las clases qie escribiremos se regiran por 3 partes
 */
+
+/*--- Bloque ---*/
+/*
+Es una parte independiente de nuestro HTML, no necesita de otros
+elementos para existir. Por ejemplo, una galeria de imagenes o un 
+menu, no necesitan de otros elementos para existir.
+Los blosques tienen el nombre de lo que representara, ejemplo:
+"header, menu, galeria, footer".
+*/
+ 
+/*--- Elemento  ---*/
+/*
+Un elemento siempre estara dentro de un bloque, debido a que es 
+parte de el y es dependiente del bloque, por ejemplo una imagen 
+necesita una galeria de imagenes para existir, o un enlace necesita 
+un menu para existir.
+Los elementos tendran el nombre primero de el bloque al que pertenece,
+dos guiones bajos y despues el nombre de lo que representaran, ejemplo: 
+"header__titlie, menu__item, galeria__img".
+*/
+/*--- Modificadores ---*/
+/*
+Los modificadores son usados en elementos o bleques, se usan para
+representar una caracteristica diferente que tendra el modificador 
+o elemento, dos guiones medios y la caracterisca diferente que tendra
+este bloque o elemento.
+
+Ejemplo: "boton--active" "header--wave"
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.nav{
+    background-color: #264DE4;
+    color: #fff;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.nav__logo {
+    height: 100%;
+    padding:15px;
+}
+
+.nav__link{
+    color: inherit;
+    text-decoration: none;
+    margin-left: 20px;
+}
