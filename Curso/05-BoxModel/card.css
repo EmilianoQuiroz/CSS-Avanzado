@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+.title{
+    background-color: yellow;
+    width: 300px;
+    margin: 0 auto;
+}
+.btn{
+    display: inline-block;
+    background-color:tomato;
+    color: #fff;
+}
+Cajas en bloque : block
+Cajas en Linea : inline
+*/
+body{
+    font-family:Arial,sans-serif;
+}
+
+.title{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn{
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 45px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 40px;
+}

@@ -17,8 +17,9 @@ body{
 .card{
     background-color: royalblue;
     color: white;
-    display: inline-block;
+    /*display: inline-block;*/
     width: 300px; 
+    margin: 100px;
     /*max-width: 300px;
     min-width: 100px;
     height: 300px;
@@ -61,7 +62,7 @@ body{
 
     /*border-width: 20px; Ancho*/
     /*border-style: solid;Tipo*/
-    border-color: purple;/*Color*/
+    /*border-color: purple;Color*/
     /*Al igual que el padding, el border puede bariar 
     su tamaño en cada ladodel mismo.
     */
@@ -74,8 +75,80 @@ body{
     /*Esto se puede acortar utilizando la misma
     logica del padding
     border-width: 10px 20px 30px 80px;*/
+
     /*----------- Estilos de Bordes -----------*/
     border-width: 20px;
 
-    border-style: solid;
+    /*border-style: solid;*/
+    /*
+    solid --> Este borde es de una línea sólida.
+    dotted --> Este borde está compuesto a base de una línea de puntos.
+    double --> El borde double está compuesto por una doble línea sólida. 
+               Hay que saber que para que este borde se vea como una doble 
+               línea, tenemos que especificar un ancho de al menos 3 pixel. 
+               Así se vería un borde con dos líneas de un píxel más un 
+               espacio de separáción del borde de otro pixel. A medida que 
+               especificamos una anchura mayor del borde doble, las líneas 
+               van aumentando de grosor, así como el espacio que las separa.
+    dashed --> El borde dashed es muy similar al borde punteado, pero en lugar 
+               de puntos, lo que tenemos es una línea partida.
+    groove --> Es un borde especial, con una especie de relieve difícil de describir, 
+               creado con la combinación de colores claros y oscuros de borde.
+    ridge --> Este borde también es un poco raro. Parecido al groove, pero con los 
+              colores oscuros y claros invertidos.
+    inset --> Crea un borde con una imitación de biselado, como si estuviera 
+              hundido. El efecto de este borde se ve mejor si el elemento 
+              que está bordeando tiene un color de fondo parecido al color 
+              de borde.
+    outset --> Este último estilo de borde imita un biselado, como si fuera 
+               un botón que está levantado. Es igual que el estilo de borde 
+               inset, pero con los colores claros y oscuros invertidos. 
+               Veremos también este efecto mejor si el elemento tiene un 
+               color de fondo.
+    */
+    
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: double;
+    /*border-left-style: solid;*/
+
+    /*----------- Border Color -----------*/
+    /* Se puede definir el color de todos los lados del borde
+       pero tambien se pueden definir un color diferente para
+       cada uno de sus bordes */
+    /*      
+    border-top-color: red;
+    border-right-color: aquamarine;
+    border-bottom-color: brown;
+    border-left-color: yellow;
+
+    Al igual que con el margen y con le padding, esto se puede
+    acortar con una sola regla, en este caso es la de border-color
+    y en cuanto a su orden aplica la misma logica que en margen y 
+    padding
+    */
+
+    border-color: antiquewhite crimson aqua;
+
+    /*Las tres caracteristicas de los bordes se pueden resumir en una sola
+    regla, border:.*/
+    border-left-style: solid crimson 20px;
+
+    /*
+    En este ejemplo estamos asignando las tres caracteristicas en la misma
+    lina pero del lado izquierdo. Podemos hacer lo mismo con cada uno de 
+    los lados o con todos juntos con la regla border:;
+    */
+}
+
+/*----------- Margenes -----------*/
+.card--one {
+    margin: 50px;
+    /*
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    */
+
 }

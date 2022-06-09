@@ -1,0 +1,28 @@
+/*---- Colapso de margenes ----*/
+*{
+    margin: 0 auto;
+}
+.main{
+    background-color:steelblue;
+    color: #fff;
+}
+
+.footer{
+    background-color: slateblue;
+    color: #fff;
+}
+/*
+¿Que es lo que pasa cuando se superponen dos margenes?
+margin top y margin bottom
+*Cuando dos hermmanos adyacentes fucionan sus margenes 
+estos se vuelven uno solo y termina predominando el 
+margen de mas tamaño.
+*/
+/*
+Propiedad box-sizing : border-box;
+Esta propiedad hace que el elementos al que le queremos 
+dar un width y height tome sus valores como definitivos
+es decir, no le va a sumar otros elementos como el padding,
+el border o el margin, sino que adapta todos esos limites a 
+la medida indicada en el width y el height
+*/
