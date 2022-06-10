@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.container {
+    margin: 50px auto;
+    background-color:#7765b5;/*Esta propiedad nos permite modificar el color del fondo*/
+    width: 90%;
+    height: 500px;
+    /*background-image: url(ruta de la imagen);Esta propiedad nos permite agregar una imagen de fondo*/
+    /*El tamaño de la imagen no se adapta al contenedor, sino que mantiene
+    el original, de este modo podemos poner la imagen en las mismas posiciones 
+    a las cuales hacemos referencia en padding o en el margin, top, left, right,
+    rigth o bottom*/
+    /*Con bacground-size:; podremos modificar el tamaño de la imagen. ya sea 
+    con unidades de medida tanto como con palabras reservadas como cover, palabra
+    con la cual podremos adaptar a la imagen al tamaño del contenedor*/    
+
+}   
+/*
+.title{
+    font-size: 42px;
+    color: red;
+    /*La propiedad color es el color que tendra el texto que queremos modificar*/
+    /*hay varias maneras de agregar colores en CSS, la primera es por medio
+    de palabras clave, como por ejemplo red, blue o green.
+    Tambien podemos agregar colores mediante el rgb, el cual es una mezcla de 
+    los colores red, blue and green como por ejemplo color: rgb(255, 0, 0),
+    cada valor esta entre el 0 y el 255, siendo estos valores la cantidad de rojo, 
+    azul o verde del cual se encuentra compuesto el color. Otra manera de agregar 
+    colores es mediante el codigo hexadecimal, esta menaera de compone de una 
+    almohadilla(#) y una serie compuesta de numeros y letras
+}*/
