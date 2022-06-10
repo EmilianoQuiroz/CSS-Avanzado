@@ -8,34 +8,7 @@ body {
     background-color: #f7996e;
 }
 
-.img{
-    width: 250px;
-    height: 350px;
-    object-fit: cover;
-    margin: 50px;
-
-    border-radius: 110px 0 110px;/*Esta propiedad nos permite redondear los bordes de nuestro elemento*/
-
-    /*
-    Se pueden modificar las esquinas por separado con las siguintes propiedades:border: 
-    border-top-left-radius: ;
-    border-top-right-radius: ;
-    border-bottom-right-radius: ;
-    border-bottom-left-radius: ;
-
-    Aunque todo esto se puede reducir a la propiedad border-radius: ;
-    y el orden de los valoires tiene la misma logica que en el padding 
-    y el margin.
-    */
-
-    /*------- Sombras -------*/
-    box-shadow: -10px 20px 20px 0 steelblue;
-    /* Toma por defecto tres valores, la sombra en el eje x, la sombra en
-    el eje y y el difuminado. Unque agregando un valor mas podemos ver
-    el radio que va a tener la sombra*/
-} 
-
-.drone{
+.notebook{
     width: 300px;
     height: 400px;
     background-color: #7765b5;
