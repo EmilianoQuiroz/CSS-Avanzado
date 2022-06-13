@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.container {
+    padding: 40px;
+}
+/*
+UNIDADES DE MEDIDA ABSOLUTAS
+
+Son aquellas cuyo valor nunca cabia, es decir se mantiene siempre el mismo. Estas son px, cm, pt, mm.
+*/
+
+.title {
+    font-size: 40px;
+}
+
+/*
+UNIDADES DE MEDIDA RELATIVAS
+
+Estas unidades pueden variar su tamaño segun diversas variables, estas son las siguientes: 
+
+REM:
+Esta medida equivale al tamaño de fuente del documento raiz (html {}), que por defecto es de 16px, por ende 
+1 rem equivale a 16px. Aunque esto podemos modificarlo definiendo otro valor en el documento raiz de la siguienete manera:
+
+html{
+    font-size: 40px;
+}
+*Con esto haremos que la unidad rem pase a medir 40px
+
+EM:
+El tamaño de la unidad em depende del font-size del elememto padre o de algun ancestro superior, es decir, si yo defino un elemento padre de 30 px en mi escala de rem una unidad sera equivalente a 30px.
+
+VW:
+Esta unidad es equivalente al  tamaño del viwport de la pagina, es decir la parte visible, conforme aumente el tamaño de la pagina este se adapta. Solo aplica al ancho del viewport.
+
+VH:
+ Esta unidad equivale al tamaño del alto del elemento visible en el viewport.
+*/
