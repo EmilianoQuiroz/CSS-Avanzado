@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 40% auto;
+    border: 4px solid; 
+}
+
+.element {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.static {
+    background-color: tomato;
+}
+
+.relative {
+    background-color: steelblue;
+}
+
+.absolute {
+    background-color: teal;
+}
+
+.fixed {
+    background-color: crimson;
+}
+/*
+FLUJO DEL NAVEGADOR
+*/
