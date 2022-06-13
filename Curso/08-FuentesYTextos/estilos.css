@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Roboto:ital,wght@0,300;0,900;1,500;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #320DA8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    padding-bottom: 30px;
+    width: 400px;
+    margin: 30px;
+}
+
+.card__texts {
+    padding: 30px 20px;
+}
+
+.card__img { 
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__date {
+    font-weight: 300;
+}
+.card__title{
+    color: red;
+    font-family: arial, cursive;
+    /*Esta propiedad es la que se utiliza para modificar la fuente 
+    que deseemos modificar, puede resivir mas de una fuente y estas
+    se aplican en ordedem de posicion en el caso de que no tenga la 
+    primer fuente se aplicara la tercera, y asu¡i suesivamente.
+    Esta propiedad es hereble, es decir, si por ejemplo, la ponemos en
+    el body, todos los elementos hijos de este tendran dicha propiedad.*/
+    font-weight: 900;
+    /*Esta propiedad sirve para definir el perso de la fuente, es decir, si
+    es mas o menos gruesa.*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card__paragraph {
+    background-color: yellow;
+    text-align: center;
+    /*Esta propiedad nos permite definir la alineacion del contenido 
+    en este caso del texto*/
+    line-height: 1.2;/*Sirve para definir el tamaño del espacio entre las lineas de texto*/
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card__cta{
+    display: inline-block;
+    background-color: #320DA8;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: 300;
+}
