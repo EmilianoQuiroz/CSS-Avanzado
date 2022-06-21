@@ -17,19 +17,40 @@
 
 .static {
     background-color: tomato;
+    /*Position-Static es el valor que todos los elementos tienen por defecto, no hace falta ponerlo*/
 }
 
 .relative {
     background-color: steelblue;
+    /*Posotion-Relative esta propiedad es similar a la posicion por defecto, salvo que permite desbloquear cuatro valores, estos son top, right, bottom y left*/
+    position: relative;
+    top: 50px;
+    left: 200px;
+    bottom: 500px;
+    /*Estas propiedades sirven para mover al elemento desde su posicion original hasta otra sin modificar el posicionamiento de los otros elementos*/
 }
 
 .absolute {
     background-color: teal;
+    /*Este posicionamiento se mueve en referencia a su ancestro  o contenedor mas cercano que tenga un position diferente a static
+    */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
 }
 
 .fixed {
     background-color: crimson;
+    /*Este posicionamiento se fija al viewpor*/
+    position: fixed;
+    left: 0;
+    bottom: 50px;
 }
 /*
 FLUJO DEL NAVEGADOR
+*/
+/*
+Todos los elementos del navegador se posicinan en la parte de arriba a la izquierda y los elementos siguientes hacia abajo del anterior pero siempre hacia la izquierda.
+Los posicionamientos en CSS nos permiten modificar el flujo del navegador.
 */
